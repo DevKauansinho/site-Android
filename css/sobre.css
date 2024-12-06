@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+footer {
+    margin-top: 3000px;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 50px gray;
+    transition: transform 0.2s;
+    margin: 30px;
+    padding: 150px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#logoandroid {
+    width: 350px; 
+    height: auto; 
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    margin-bottom:80px;
+    padding-left:50%;
+    padding-right:30px;
+}
+
+#sobre{
+    font-size: 20px;
+    margin-bottom: 600px;
+    color: black;
+}
+
+#produtos{
+    background-color: #3ddc84;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 430px;
+    margin-top: 50px ;
+}
+
+h2{
+ color: #3ddc84;
+}
+
+#textVerProducts{
+    text-decoration: none;
+    color: black;
+    width: 200px;
+}
+
+#videoAndroid{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#banner2 {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+    border-radius: 8px;
+}
+
+.nav-position{
+    position: fixed;
+}

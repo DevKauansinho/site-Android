@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5; 
+    color: #333; 
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-one {
+    background-color: #9FE2BF;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+    transition: transform 0.1s;
+    margin: 30px;
+    padding: 150px;
+    height: auto;
+}
+
+.card-two {
+    background-color: #73c6b6 ;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+    transition: transform 0.1s;
+    margin: 30px;
+    padding: 150px;
+    height: auto;
+    
+}
+
+.card-three {
+    background-color: #9FE2BF;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+    transition: transform 0.1s;
+    margin: 30px;
+    padding: 150px;
+    height: auto;
+}
+
+.card p {
+    color: #666; 
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#logoandroid {
+    width: 400px;
+    height: auto;  
+}
+
+#banner1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.textHeader {
+    font-size: 18px;
+    color: #333; 
+    text-align: center;
+    top: 20px;
+    margin-top: 50px;   
+}
+
+footer {
+  margin-top: 1300px;  
+}
+
+footer p {
+  margin-left: 20px;
+}
+
+.icons-footer{
+ width: 100px;
+ height: auto;
+ color:white;
+ text-decoration: none;
+ justify-content: space-between;
+ padding-left: 50px;
+}
+#videoAndroid{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding:0px;
+    }  
+}
+
+.form-container{
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.nav-position{
+    position: fixed;
+}
+
+#img1{
+    margin-left: 600px;
+}
+
+#videoDispositivos-android{
+    width: 100%;
+    height: auto;
+}
+
+#ul-li-localizaçao{
+    display: flex;
+    list-style-type: none;
+}
+
+#imgLocalização{
+    width: 250px;
+    height: auto;
+    margin-right: 0px;
+}
